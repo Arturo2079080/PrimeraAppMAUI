@@ -14,7 +14,7 @@
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
-                Text="Hello, World!"
+                Text="Hola Mundo!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
@@ -30,6 +30,11 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button Text="Tomar Foto" Clicked="Button_Clicked"/>
+            <Button Text="Obtener Galeria" Clicked="Button_Clicked_1"/>
+            <Image x:Name="imgFoto" />
+
         </VerticalStackLayout>
     </ScrollView>
 
